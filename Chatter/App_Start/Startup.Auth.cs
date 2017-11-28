@@ -54,15 +54,15 @@ namespace Chatter
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "376354466148660",
+               appSecret: "70ffe2f888103aea5f99bfec7fca0a18");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "973435227556-omi3g5isgd1jlt2k9selb3fl2m5nikk9.apps.googleusercontent.com",
+                ClientSecret = "vAZEif4WB2_ITowIGNg8l8Oo"
+            });
         }
     }
 }
